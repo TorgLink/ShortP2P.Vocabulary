@@ -2,6 +2,18 @@
 
 Vocabulary zip packs for ShortP2P dictionary short-text compression ([SMT-3](https://botticelli.youtrack.cloud/issue/SMT-3)).
 
+## Packs (v1)
+
+| File | Language | Source list |
+|------|----------|-------------|
+| `RU_vocabulary_v1.zip` | Russian | `ru_50k.txt` |
+| `EN_vocabulary_v1.zip` | English | `en_50k.txt` |
+| `FR_vocabulary_v1.zip` | French | `fr_50k.txt` |
+| `DE_vocabulary_v1.zip` | German | `de_50k.txt` |
+| `ES_vocabulary_v1.zip` | Spanish | `es_50k.txt` |
+
+Each pack takes the top 3000 lowercase tokens from FrequencyWords 2016.
+
 ## Pack format
 - File name: `<Lang>_vocabulary_v<version>.zip`
 - `tokens.txt`: lowercase TSV lines `<index>\t<word>`
